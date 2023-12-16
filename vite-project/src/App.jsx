@@ -14,6 +14,11 @@ function App() {
     //only one time value is getting incremented though it is for time sevVal 
     //bcz react consider it as only one 
     //we can avoid it -> how??
+    // setVal(val - 1)
+    // setVal(val - 1)
+    // setVal(val - 1)
+    // setVal(val - 1)
+
     setVal((prevVal => prevVal + 1))
     setVal((prevVal => prevVal + 1))
     setVal((prevVal => prevVal + 1))
